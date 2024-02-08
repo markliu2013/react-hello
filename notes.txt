@@ -1,0 +1,25 @@
+React TypeScript Webpack Eslint Prettier
+husky、commitlint、lint-staged、stylelint
+
+How to create a React application with Webpack
+https://www.educative.io/answers/how-to-create-a-react-application-with-webpack
+
+Adding TypeScript
+https://create-react-app.dev/docs/adding-typescript/
+
+Enforcing Coding Conventions with Husky Pre-commit Hooks
+https://khalilstemmler.com/blogs/tooling/enforcing-husky-precommit-hooks/
+
+vue3企业级项目骨架搭建，涉及vite、eslint、prettierrc、husky、commitlint、lint-staged、stylelint
+https://www.bilibili.com/video/BV1BV4y1N7pd
+
+【一听就懂】ESLint机制浅析-整体机制与规范包
+https://juejin.cn/post/7037426216671903780
+
+https://www.robinwieruch.de/prettier-eslint/
+
+
+https://dev.to/knowankit/setup-eslint-and-prettier-in-react-app-357b
+
+https://stackoverflow.com/questions/55198502/using-eslint-with-typescript-unable-to-resolve-path-to-module
+
