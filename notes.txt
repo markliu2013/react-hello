@@ -13,6 +13,12 @@ https://khalilstemmler.com/blogs/tooling/enforcing-husky-precommit-hooks/
 vue3企业级项目骨架搭建，涉及vite、eslint、prettierrc、husky、commitlint、lint-staged、stylelint
 https://www.bilibili.com/video/BV1BV4y1N7pd
 
+使用 Husky + Commitlint + Lint-staged 约束每一次 Git 提交
+https://www.cnblogs.com/wisewrong/p/16070968.html
+
+Install Husky in your project for proper commit lint with pre-commit hooks
+https://dev.to/mahmudulhsn/install-husky-in-your-project-for-proper-commit-lint-with-pre-commit-hooks-25b2
+
 【一听就懂】ESLint机制浅析-整体机制与规范包
 https://juejin.cn/post/7037426216671903780
 
