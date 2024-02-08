@@ -14,6 +14,9 @@ module.exports = {
   },
   extends: [
     'eslint:all',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'airbnb'
   ],
   parserOptions: {
     ecmaVersion: 12,
