@@ -6,9 +6,15 @@
   "scripts": {
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "lint": "eslint src/**/*.ts src/**/*.tsx ",
+    "lint": "eslint src/**/*.ts src/**/*.tsx --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -43,6 +49,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "html-webpack-plugin": "^5.6.0",
     "husky": "^9.0.10",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "sass": "^1.70.0",
     "sass-loader": "^14.1.0",
