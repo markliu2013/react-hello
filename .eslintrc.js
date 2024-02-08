@@ -13,10 +13,7 @@ module.exports = {
     jest: true
   },
   extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'airbnb'
+    'eslint:all',
   ],
   parserOptions: {
     ecmaVersion: 12,
