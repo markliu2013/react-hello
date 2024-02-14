@@ -1,0 +1,43 @@
+初始化npm项目
+npm init -y
+
+安装react
+npm i react react-dom
+
+安装webpack
+npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin
+
+typescript
+npm i -D typescript ts-loader @types/node @types/react @types/react-dom
+
+创建 webpack.config.js tsconfig.json
+
+package.json
+"build": "webpack --mode production"
+"dev": "webpack serve --mode development",
+
+新建src目录
+创建index.html, App.tsx, index.ts
+
+可以运行了
+
+ts loader vs babel loader
+https://stackoverflow.com/questions/38320220/how-to-setup-typescript-babel-webpack
+https://juejin.cn/post/7314850529111736355
+https://dev.to/rinconcamilo/setting-up-react-babel-webpack-typescript-without-create-react-app-a9l
+
+改成用babel loader
+npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript babel-loader
+
+ESLint Prettier
+https://dev.to/knowankit/setup-eslint-and-prettier-in-react-app-357b
+
+
+npm i -D eslint prettier eslint-config-prettier eslint-plugin-prettier
+npm i -D eslint-plugin-react eslint-plugin-react-hooks
+npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
+创建.eslintrc.js文件
+
+
+jest
+npm i -D @types/jest
